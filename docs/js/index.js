@@ -23,7 +23,7 @@ function districtStyle(feature) {
       'indigo',
       'turquoise',
       'midnightblue',
-      'tomato'
+      'mediumvioletred'
                 ]
   if (currentColorIndex > colorList.length) {
     currentColorIndex = 0
