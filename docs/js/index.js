@@ -25,7 +25,7 @@ function districtStyle(feature) {
       'midnightblue',
       'mediumvioletred'
                 ]
-  if (currentColorIndex > colorList.length) {
+  if (currentColorIndex >= colorList.length) {
     currentColorIndex = 0
   }
   function getColor() {
