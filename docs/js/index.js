@@ -7,9 +7,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap);
 var layerGroup = L.layerGroup().addTo(mymap);
 
-var currentColorIndex=-1;
 function districtStyle(feature) {
-  currentColorIndex += 1
+  currentColorIndex = feature.geometry.properties.number
   colorList = [
       'dodgerblue',
       'green',
@@ -33,9 +32,9 @@ function districtStyle(feature) {
     return colorList[currentColorIndex]
   };
     return {
-        fillColor: getColor(feature.properties.number),
+        fillColor: getColor(),
         fillOpacity: .3,
-        color: getColor(feature.properties.number),  //Outline color
+        color: getColor(),  //Outline color
         weight: 3,
         opacity: 1,
         
