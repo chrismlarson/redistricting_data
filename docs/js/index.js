@@ -8,7 +8,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 var layerGroup = L.layerGroup().addTo(mymap);
 
 function districtStyle(feature) {
-  currentColorIndex = feature.geometry.properties.number
+  currentColorIndex = feature.geometry.properties.number - 1
   colorList = [
       'dodgerblue',
       'green',
