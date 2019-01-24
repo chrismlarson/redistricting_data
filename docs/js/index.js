@@ -41,21 +41,38 @@ function districtStyle(feature) {
     };
 }
 
-newMichiganDistrictList = [
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0001.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0002.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0003.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0004.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0005.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0006.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0007.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0008.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0009.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0010.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0011.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0012.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0013.geojson",
-  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-FederalDistrictsGeoJSONInfo/0014.geojson"
+newSplitLowestEnergyMichiganDistrictList = [
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0001.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0002.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0003.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0004.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0005.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0006.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0007.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0008.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0009.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0010.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0011.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0012.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0013.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitLowestEnergy-FederalDistrictsGeoJSONInfo/0014.geojson"
+]
+
+newSplitOnEdgeMichiganDistrictList = [
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0001.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0002.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0003.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0004.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0005.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0006.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0007.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0008.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0009.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0010.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0011.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0012.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0013.geojson",
+  "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-SplitOnEdge-FederalDistrictsGeoJSONInfo/0014.geojson"
 ]
 
 currentMichiganDistrictList = [
@@ -75,10 +92,16 @@ currentMichiganDistrictList = [
   "https://raw.githubusercontent.com/chrismlarson/redistricting_data/master/2010-Michigan-CurrentFederalCongressionalDistrictsInfo/0014.geojson"
 ]
 
-function loadNewMichiganDistrictsIntoMap() {
+function loadNewSplitLowestEnergyMichiganDistrictsIntoMap() {
   layerGroup.clearLayers();
-  for(index in newMichiganDistrictList) {
-    new L.GeoJSON.AJAX(newMichiganDistrictList[index], {style: districtStyle}).addTo(layerGroup);
+  for(index in newSplitLowestEnergyMichiganDistrictList) {
+    new L.GeoJSON.AJAX(newSplitLowestEnergyMichiganDistrictList[index], {style: districtStyle}).addTo(layerGroup);
+  }
+}
+function loadNewSplitOnEdgeMichiganDistrictsIntoMap() {
+  layerGroup.clearLayers();
+  for(index in newSplitOnEdgeMichiganDistrictList) {
+    new L.GeoJSON.AJAX(newSplitOnEdgeMichiganDistrictList[index], {style: districtStyle}).addTo(layerGroup);
   }
 }
 function loadCurrentMichiganDistrictsIntoMap() {
@@ -90,8 +113,11 @@ function loadCurrentMichiganDistrictsIntoMap() {
 function switchDistrictsOnMap() {
   var x = document.getElementById("districtSelect").value;
   switch(x) {
-    case "New Michigan Federal":
-      loadNewMichiganDistrictsIntoMap();
+    case "New Split-Lowest-Energy Michigan Federal":
+      loadNewSplitLowestEnergyMichiganDistrictsIntoMap();
+      break;
+    case "New Split-On-Edge Michigan Federal":
+      loadNewSplitOnEdgeMichiganDistrictsIntoMap();
       break;
     case "Current Michigan Federal":
       loadCurrentMichiganDistrictsIntoMap();
