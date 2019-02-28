@@ -15,13 +15,29 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
   </head>
   <body onload="switchDistrictsOnMap()">
-    <select id="districtSelect" onchange="switchDistrictsOnMap()">
-      <option>Proposed Michigan Federal</option>
-      <option>Current Michigan Federal</option>
-    </select>
-    <div id="mapContainer">
-      <div id="mapid"></div>
+  <section class="hero is-info">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Michigan Redistricting Maps
+        </h1>
+        <h2 class="subtitle">
+          More details at <a href="https://github.com/chrismlarson/redistricting">chrismlarson/redistricting</a>
+        </h2>
+        <div class="select">
+          <select id="districtSelect" onchange="switchDistrictsOnMap()">
+            <option>Proposed Michigan Federal</option>
+            <option>Current Michigan Federal</option>
+          </select>
+        </div>
+      </div>
     </div>
+  </section>
+  <section>
+  </section>
+  <div id="mapContainer">
+    <div id="mapid"></div>
+  </div>
   </body>
   <script  src="js/michigan.js"></script>
 </html>

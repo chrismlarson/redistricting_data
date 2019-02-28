@@ -1,6 +1,3 @@
 html, body {height: 100%}
-#districtSelect { 
-  margin: auto;
-}
-#mapContainer { height: 90%; }
+#mapContainer { height: 73%; }
 #mapid { height: 100%; }
