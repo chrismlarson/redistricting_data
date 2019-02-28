@@ -90,7 +90,7 @@ function loadCurrentMichiganDistrictsIntoMap() {
 function switchDistrictsOnMap() {
   var x = document.getElementById("districtSelect").value;
   switch(x) {
-    case "New Michigan Federal":
+    case "Proposed Michigan Federal":
       loadNewMichiganDistrictsIntoMap();
       break;
     case "Current Michigan Federal":
